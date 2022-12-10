@@ -1,1 +1,2 @@
 # chrono
+2022-12-10; This project was firstly made to be used with low/unstable internet connection. My main objective was to create a countdown chrono that I can use when doing yoga & stretching sessions with no internet (off mobile data or airplane mode). I succeeded to make it work on my Android local files but then decided to update it and share it as a first project. The next goal: build a cross-platform app with this project.
