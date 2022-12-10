@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="#"/>
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="src/chrono.js"></script>
+    <title>Chrono</title>
+  </head>
+ 
+  <body>
+    <div id="content">
+      <div class="boxInput">
+        <div class="boxInputChild">Intervals (seconds) <input id="interval" type="number" value="60" min="1" max="900"/></div>
+        <div id="flowInterval"></div>
+        <div class="boxInputChild">Rest (seconds) <input id="rest" type="number" value="15" min="1" max="300"/></div>
+        <div id="flowRest"></div>
+      </div>
+      <button class="button" value="Start" onclick="start()">START!</button>
+    </div>
+    <footer><a href="https://github.com/fg-codes" target="_blank">Github @fg-codes</a></footer>
+</body>
+</html>
